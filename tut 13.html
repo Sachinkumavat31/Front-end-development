@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="this is discription">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="keywords" content="html,practice html">
+
+    <title>HTML</title>
+</head>
+<style>
+    #firstpara,
+    #secondpara,
+    #thirdpara {
+        border: 2px solid red;
+        color: bisque;
+        background-color: rgb(15, 69, 87);
+        font-style:italic ;
+    }
+
+    a {
+        color: rgb(255, 0, 4);
+    }
+
+    ul,ol{
+        background-color: rgb(235, 142, 20);
+        color: aqua;
+        border: 3px solid rgb(149, 13, 13);
+        font: bold;
+        font-style: italic;
+    }
+    thead,tbody{
+        color: rgb(162, 227, 57);
+        background-color: black;
+        border: 4px solid rgb(74, 24, 124);
+    }
+    input,textarea{
+        background-color: rgb(186, 113, 65); 
+        border: 3px solid rgb(16, 14, 14);
+           
+    }
+
+</style>
+
+<body>
+    <p id="firstpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, facilis, repellat modi sed ducimus
+        libero at
+        tenetur dolor iure sapiente voluptatum autem? Voluptates libero velit voluptate tenetur quasi earum placeat!</p>
+    <p id="secondpara">Lorem, ipsum dolor sit amet consectetur adipisici<strong>this is
+            pound=&lt;s&gt;,&frac12;,&UpArrowDownArrow;</strong> elit. Quod a velit voluptate est, quisquam vitae
+        molestiae autem voluptatum aperiam tempora rem omnis, libero voluptates aliquid possimus saepe asperiores non
+        explicabo.</p>
+    <span id="thirdpara">this is for practice</span><br>
+    <a href="https://google.com">go to google</a><br>
+    <a href="https://twitter.com">go to twitter</a><br>
+    <a href="https://facebook.com">go to facebook</a><br>
+    <img src="C:\Users\SACHIN\Downloads\meta.jpg" alt="Error">
+
+    <ul type="square">
+        <li>this is unorderlist 1</li>
+        <li>this is unorderlist 2</li>
+        <li>this is unorderlist 3</li>
+    </ul>
+    <ol type="A">
+        <li>This is orderlist 1</li>
+        <li>This is orderlist 2</li>
+        <li>This is orderlist 3</li>
+    </ol><br>
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Email id</th>
+            <th>contact no:</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sachin Kumavat</td>
+                <td>sachinkumavat432@gmail.com</td>
+                <td>26545245554</td>
+            </tr>
+
+        </tbody>
+        <tbody>
+            <tr>
+                <td>nikil patil</td>
+                <td>sachinkumavat432@gmail.com</td>
+                <td>26545245554</td>
+            </tr>
+
+        </tbody>
+        <tbody>
+            <tr>
+                <td>lalit pawar</td>
+                <td>sachinkumavat432@gmail.com</td>
+                <td>26545245554</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <form action="backend.php">
+
+        <label for="Name">Name</label>
+        <div>
+            <input type="Name" name="My Name" id="Name">
+        </div><br>
+        <label for="email">email</label>
+        <div>
+            <input type="email" name="My email" id="email">
+        </div><br>
+        <label for="Contact">Contact</label>
+        <div>
+            <input type="number" name="contact" id="contact">
+        </div><br>
+        <label for="Date">Date</label>
+        <div>
+            <input type="Date" name="My Date" id="Date">
+        </div>
+        <br>
+        <div>
+            Write About yoursel <br><textarea name="My text" id="" cols="60" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            your Elligiblity<input type="checkbox" name="are you Elligible?">
+        </div>
+        <br>
+        <div>
+            Gender:Male<input type="radio" class="My Gender">Female<input type="radio" class="My Gender">Others<input
+                type="radio" class="My Gender">
+        </div>
+
+        <div>
+            <input type="submit" class="submit now">
+            <input type="reset" class="reset now">
+        </div>
+    </form>
+
+
+</body>
+
+</html>

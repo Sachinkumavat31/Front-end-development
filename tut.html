@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #firstpara {
+            color: rgb(7, 136, 123);
+            background-color: bisque;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+        }
+
+        #secondpara {
+            color: rgb(7, 136, 123);
+            background-color: bisque;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+        }
+
+        table,
+        ul,
+        ol {
+            color: rgb(198, 20, 20);
+            background-color: rgb(17, 11, 11);
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            border: 2px solid red;
+        }
+
+        input,
+        textarea {
+            color: rgb(242, 4, 4);
+            background-color: aquamarine;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>practice</h2>
+    <p id="firstpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cum architecto quasi officia facilis,
+        error alias
+        quae mollitia maiores<strong>&lt;p&gt;</strong> incidunt rerum ad assumenda,<br>
+        porro repudiandaes<strong> &frac12;</strong> consequuntur itaque exercitationem perferendis nisi.</p>
+    <span id="secondpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quia officia eveniet odit
+        similique corrupti sed
+        ipsum aspernatur necessitatibus vitae ullam excepturi fugit</span><br>
+    <a href="https://google.com">go to google</a> <br>
+    <a href="https://twitter.com">go to twitter</a><br>
+
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Contact.No</th>
+        </thead>
+        <tbody>
+            <td>Sachin Kumavat</td>
+            <td>SachinKumavat@gmail.com</td>
+            <td>3423525231</td>
+        </tbody>
+        <tbody>
+
+            <td>lalit pawar</td>
+            <td>lalitpawar@gmail.com</td>
+            <td>3423525231</td>
+
+        </tbody>
+    </table><br>
+    <ul type="square">
+        <li>unorderlist</li>
+    </ul>
+    <ol type="I">
+        <li>orderlist</li>
+    </ol><br>
+
+    <form action="Backend.php">
+
+        <label for="Name">Name</label>
+        <div>
+            <input type="Name" name="My Name" id="Name">
+        </div><br>
+        <label for="Date">Date</label>
+        <div>
+            <input type="Date" name="My Date" id="Date">
+        </div><br>
+        <label for="Email">Email</label>
+        <div>
+            <input type="Email" name="My Email" id="Email">
+        </div><br>
+        <label for="Contact">Contact</label>
+        <div>
+            <input type="number" name="My Contact" id="Contact">
+        </div><br>
+        <div>
+            Write about yourself: <br> <textarea name="My text" id="" cols="60" rows="10"></textarea>
+        </div><br>
+        <div>
+            Are you Elligible?:<input type="checkbox" name="Your Elligiblity">
+        </div><br>
+        <div>
+            Gender:Male <input type="radio" name="My Gender">Female:<input type="radio" name="My Gender">Others:<input
+                type="radio" name="My Gender">
+        </div><br>
+        <div>
+            <input type="submit" name="submit now">
+            <input type="reset" name="reset now">
+        </div>
+    </form>
+
+
+
+</body>
+
+</html>
